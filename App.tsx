@@ -1,11 +1,10 @@
 import { useFonts, DMSans_400Regular } from '@expo-google-fonts/dm-sans';
 import { DMSerifDisplay_400Regular } from '@expo-google-fonts/dm-serif-display';
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 import AppLoading from 'expo-app-loading'
 import { ThemeProvider } from 'styled-components/native';
 import theme from './src/theme';
+import { SignIn } from './src/screens/SignIn';
 
 
 
@@ -22,9 +21,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <View>
-        
-      </View>
+      <SignIn/>
     </ThemeProvider>
   );
 }
