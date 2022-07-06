@@ -5,6 +5,7 @@ import AppLoading from 'expo-app-loading'
 import { ThemeProvider } from 'styled-components/native';
 import theme from './src/theme';
 import { SignIn } from './src/screens/SignIn';
+import { StatusBar } from 'expo-status-bar';
 
 
 
@@ -21,6 +22,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar translucent style='light' backgroundColor='transparent'/>
       <SignIn/>
     </ThemeProvider>
   );
