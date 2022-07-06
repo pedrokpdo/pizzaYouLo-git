@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248929241304",
+    "project_id": "pizzayoulo-edf44",
+    "storage_bucket": "pizzayoulo-edf44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248929241304:android:09fe29db615f29db6f6fad",
+        "android_client_info": {
+          "package_name": "com.pizzayoulo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248929241304-dou5h8gr9p5eprva32dpnci5cia2oool.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBlQP8hbaSZqwwvv4W_xni2opFaLurjJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248929241304-dou5h8gr9p5eprva32dpnci5cia2oool.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
